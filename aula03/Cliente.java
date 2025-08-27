@@ -36,5 +36,18 @@ public class Cliente {
   public void setRg(String rg) {
 	this.rg = rg;
   }
+  
+  public void informacao() {
+	  System.out.println( rg + cpf + telefone);
+  }
+  public void contatar() {
+	  System.out.println("ligando para " + nome + " " + telefone);
+  }
+  public void idNum() {
+	  System.out.println(id);
+  }
+  public void kill() {
+	  System.out.println(nome + " deletado");
+  }
 
 }

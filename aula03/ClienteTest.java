@@ -59,5 +59,9 @@ public class ClienteTest {
 		 System.out.println();
 		 
 		 //
+		 cliente1.contatar();
+		 cliente2.idNum();
+		 cliente1.kill();
+		 cliente2.informacao();
 	}
 }

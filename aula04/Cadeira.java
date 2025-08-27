@@ -29,5 +29,17 @@ public class Cadeira {
   public void setTipo(String tipo) {
 	this.tipo = tipo;
   }
+  public void girar() {
+	  System.out.println(" A cadeira esta girando");
+  }
+  public void quebrar() {
+	  System.out.println("A cadeira " + tipo + " quebrou");
+  }
+  public void inclinar() {
+	  System.out.println("Esta inclinada");
+  }
+  public void arrastar() {
+	  System.out.println( tipo + "Foi movida");
+  }
  
 }

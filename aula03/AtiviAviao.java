@@ -29,5 +29,17 @@ public class AtiviAviao {
  public void setPorte(String porte) {
 	this.porte = porte;
  }
+ public void pousou() {
+	 System.out.println("O " + modelo + "esta em solo");
+ }
+ public void caiu() {
+	 System.out.println("O " + modelo + "esta no despencou");
+ }
+ public void subiu() {
+	 System.out.println("O " + modelo + " esta no ceu");
+ }
+ public void destino() {
+	 System.out.println("O " + modelo + "chegou ao destino");
+ }
 
 }

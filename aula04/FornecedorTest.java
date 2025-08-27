@@ -25,6 +25,11 @@ public class FornecedorTest {
 		System.out.println("Inscrição Estadual: ");
 		fornecedor1.setInscricaoEstadual(ler.next());
 		System.out.println();
+		
+		ler.close();
+		
+		fornecedor1.exibirFornecedor();
+		
 	}
 
 }

@@ -71,5 +71,17 @@ public void exibirComputador() {
 		System.out.println();
 		
 }
+public void ligar() {
+	 System.out.println("Esta ligado");
+}
+public void desligado() {
+	 System.out.println("Esta desligado");
+}
+public void hack(){
+	 System.out.println("Foi hackado");
+}
+public void virus() {
+	 System.out.println("Foi infectado");
+}
 
 }

@@ -129,6 +129,9 @@ public static void main(String[] args) {
     
     //NOVO
 	
-	
+	bicho1.andando();
+	bicho2.comer();
+	bicho3.emitirSom( );
+	bicho4.dormir();
 }
 }

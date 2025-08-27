@@ -29,5 +29,17 @@ public class AtividadeCarro {
  public void setCapacidade(String capacidade) {
 	this.capacidade = capacidade;
  }
+  public void ligar() {
+	  System.out.println("O " + modelo + " esta correndo");
+  }
+  public void acelerar() {
+	  System.out.println("O " + modelo + "acelerou");
+  }
+  public void morreu() {
+	  System.out.println("O " + modelo + " morreu na curva");
+  }
+  public void desligado() {
+	  System.out.println("O " + modelo + " desligado");
+  }
  
 }

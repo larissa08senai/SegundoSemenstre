@@ -21,6 +21,12 @@ public class CadeiraTest {
 		System.out.println();
 		System.out.println("Tipo de Cadeira:");
 		System.out.println(cadeira1.getTipo());
+		
+		cadeira1.arrastar();
+		cadeira1.quebrar();
+		cadeira1.girar();
+		cadeira1.inclinar();
 	}
+	
 
 }

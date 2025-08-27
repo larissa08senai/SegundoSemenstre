@@ -3,8 +3,10 @@ package aula03;
 public class Pessoa {
 	String nome;
 	int idade;
-	String endereço;
+	String endereco;
 	String profissao;
+	String cpf;
+	String rg;
 	public String getNome() {
 		return nome;
 	}
@@ -17,17 +19,37 @@ public class Pessoa {
 	public void setIdade(int idade) {
 		this.idade = idade;
 	}
-	public String getEndereco() {
-		return endereço;
-	}
-	public void setEndereco(String endereço) {
-		this.endereço = endereço;
-	}
+	
 	public String getProfissao() {
 		return profissao;
 	}
 	public void setProfissao(String profissao) {
 		this.profissao = profissao;
+	}
+	public String getEndereco() {
+		return endereco;
+	}
+	public void setEndereco(String endereco) {
+		this.endereco = endereco;
+	}
+	public String getCpf() {
+		return cpf;
+	}
+	public void setCpf(String cpf) {
+		this.cpf = cpf;
+	}
+	public String getRg() {
+		return rg;
+	}
+	public void setRg(String rg) {
+		this.rg = rg;
+	}
+	
+	public void respira() {
+		System.out.println(nome + "esta respirando");
+	}
+	public void andar() {
+		System.out.println(nome + " esta andando");
 	}
 	
 

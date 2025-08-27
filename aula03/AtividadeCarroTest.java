@@ -89,5 +89,10 @@ public static void main(String[] args) {
 	System.out.println(carro4.getPlaca());
 	System.out.println();
 	
+	carro1.acelerar();
+	carro2.morreu();
+	carro3.desligado();
+	carro4.ligar();
+	
 }
 }

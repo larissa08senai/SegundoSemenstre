@@ -92,5 +92,10 @@ public static void main(String[] args) {
 	System.out.println(aviao4.getLugares());
 	System.out.println(aviao4.getPorte());
 	System.out.println();
+	
+	aviao1.pousou();
+	aviao2.caiu();
+	aviao3.destino();
+	aviao4.subiu();
 }
 }

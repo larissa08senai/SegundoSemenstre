@@ -20,6 +20,18 @@ public class Usuario {
         System.out.println();
        
 	}
+	public void acesso() {
+		 System.out.println(nome + "Entrou");
+	}
+	public void kill() {
+		 System.out.println(nome + "Foi desativado");
+	}
+	public void idNum() {
+		 System.out.println(id);
+	}
+	public void serial() {
+		 System.out.println(usuario);
+	}
 	
 
 	public int getId() {

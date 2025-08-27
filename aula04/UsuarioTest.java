@@ -27,6 +27,9 @@ public class UsuarioTest {
 			ler.close();
 			
 			user1.exibirUsuario();
+			user1.acesso();
+			user1.serial();
+			user1.kill();
 	}
 
 }

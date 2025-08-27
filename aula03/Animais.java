@@ -29,6 +29,18 @@ public class Animais {
  public void setCor(String cor) {
 	this.cor = cor;
  }
+ public void emitirSom() {
+	 System.out.println("O " + nome + " esta emitindo som");
+ }
+ public void andando() {
+	 System.out.println("O " + nome + " esta andando");
+ }
+ public void comer() {
+	 System.out.println("O " + nome +  " Esta comendo");
+ }
+ public void dormir() {
+	 System.out.println("O " + nome + " esta dormindo");
+ }
  
  
  

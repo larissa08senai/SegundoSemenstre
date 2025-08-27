@@ -29,7 +29,7 @@ public static void main(String[] args) {
 	System.out.println("Idade:  ");
 	pessoa2.setIdade(ler.nextInt());
 	
-	System.out.println("Endereço:  ");
+	System.out.println("Endereco:  ");
 	pessoa2.setEndereco(ler.next());
 	System.out.println("Profissão: ");
 	pessoa2.setProfissao(ler.next());
@@ -49,6 +49,10 @@ public static void main(String[] args) {
 	System.out.println(pessoa2.getProfissao());
 	
 	ler.close();
+	
+	pessoa1.andar();
+	
+	pessoa2.respira();
 	
 }
 }
