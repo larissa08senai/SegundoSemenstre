@@ -12,12 +12,13 @@ public class Conta {
 				System.out.println("Saldo insuficiente");
 		}else {
 			saldo -= saque;
-			
+			 System.out.println("Sacado");
 			
 		}
+		 System.out.println(saldo);
 	}
 	public void depositar(double deposito) {
-		saldo -= deposito;
+		saldo += deposito;
 	}
 	public void exibirConta() {
 		System.out.println("ID: " + id);
