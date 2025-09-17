@@ -5,6 +5,8 @@ public class Calculando implements Calculos {
 	private double valor1 ;
 	private double valor2 ;
 	private int valor3 ;
+	private int valor4;
+
 	
 
 	@Override
@@ -16,25 +18,25 @@ public class Calculando implements Calculos {
 	@Override
 	public double sub() {
 		// TODO Auto-generated method stub
-		return 0;
+		return valor1 - valor2;
 	}
 
 	@Override
 	public double multi() {
 		// TODO Auto-generated method stub
-		return 0;
+		return valor1 * valor2;
 	}
 
 	@Override
 	public int div() {
 		// TODO Auto-generated method stub
-		return 0;
+		return valor3 / valor4 ;
 	}
 
 	@Override
 	public int exp() {
 		// TODO Auto-generated method stub
-		return 0;
+		return valor3 * valor4;
 	}
 
 	public void setValor1(double valor1) {
@@ -48,6 +50,10 @@ public class Calculando implements Calculos {
 	public void setValor3(int valor3) {
 		this.valor3 = valor3;
 	}
+	public void setValor1(int valor4) {
+		this.valor4 = valor4;
+	}
 	
 
 }
+
